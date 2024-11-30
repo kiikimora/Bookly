@@ -322,7 +322,7 @@ body {
 
 .order-image {
     height: 501px;
-    top: 10px;
+    top: -20px;
     position: relative;
 }
 
