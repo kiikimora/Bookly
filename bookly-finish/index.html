@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bookly</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<main class="main">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logoBrown.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class='menu-item'>
+                        <a href="retellings.html">Пересказы</a>
+                    </li>
+                    <li class='menu-item'>
+                        <a href="biografy.html">Биографии</a>
+                    </li>
+                    <li class='menu-item'>
+                        <a href="store.html">Магазин</a>
+                    </li>
+                    <li class='menu-item'>
+                        <a href="vrn.html">Воронеж</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img src="images/line2.png" alt="line" class="line2">
+    <section class="order" id="order">
+        <div class="container">
+            <div class="order-block">
+                <div class="order-form">
+                    <div class="main-info">
+                        <!-- Статичная часть текста -->
+                        <div id="static-text">
+                            Читать - <span id="typed-output"></span>
+                        </div>
+
+                        <!-- Подключаем библиотеку Typed.js -->
+                        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                        <script src="scripts/script_index.js"></script>
+
+
+                    </div>
+                    <div class=".color-text-container"> Bookly — это ваш надежный источник информации об авторах и их произведениях, а также удобный онлайн книжный магазин. Мы предлагаем обширную базу данных книг, где вы сможете узнать о биографиях авторов и об их произведениях. В нашем магазине вы найдете как новинки, так и классические произведения, доступные для покупки в удобном формате. Присоединяйтесь к сообществу книголюбов и откройте для себя мир литературы вместе с Bookly!
+                    </div>
+                    <div class="order-block-image">
+                        <img src="images/order.png" alt="Books" class="order-image">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="footer-2">
+        <div class="logo">
+            <img src="images/logoWhite.svg" alt="logo">
+        </div>
+        <div class="rights">Все права защищены</div>
+        <div class="footer-2-text">Контакты:
+        <br>Телефон:+7 920 456 8819
+        <br><a href="">Мы в телеграм</a></div>
+    </footer>
+
+</main>
+
+<script src="scripts/script_index.js"></script>
+
+</body>
+</html>
