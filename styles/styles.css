@@ -320,12 +320,12 @@ body {
 
 .order-block-image {
     height: 501px;
-    margin-left: 109px;
-
+    margin-left: 450px;
+    margin-top: -415px;
 }
 
 .order-image {
-    height: 559px;
+    height: 501px;
     top: -50px;
     position: relative;
 }
@@ -414,3 +414,5 @@ body {
     background-color: transparent;
     font-size: 17px;
 }
+
+
