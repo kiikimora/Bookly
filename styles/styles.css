@@ -321,12 +321,12 @@ body {
 .order-block-image {
     height: 501px;
     margin-left: 450px;
-    margin-top: -400px;
+    margin-top: -375px;
 }
 
 .order-image {
     height: 501px;
-    top: -35px;
+    top: -25px;
     position: relative;
 }
 
