@@ -37,11 +37,12 @@ body {
 }
 
 .header {
-    padding: 40px 0;
+    padding: 20px 0;
     width: 100%;
     position: fixed;
+    height: 70px;
     z-index: 1;
-    background: linear-gradient(#5D9B6A, transparent);
+    background: #6E9D62
 }
 
 .footer {
@@ -185,18 +186,7 @@ body {
     }
 }
 
-.header {
-    padding: 40px 0;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    background: linear-gradient(#5D9B6A, transparent);
-}
 
-.header .container {
-    display: flex;
-    align-items: center;
-}
 
 .logo img {
     vertical-align: bottom;
@@ -369,7 +359,7 @@ body {
 }
 
 .order-form-inputs input {
-    border: 1px solid white;
+    border: 1px solid #291D07;
     border-radius: 60px;
     margin-bottom: 16px;
     padding: 24px 22px;
@@ -379,11 +369,11 @@ body {
     background: transparent;
     box-sizing: border-box;
     outline: none;
-    color: white;
+    color: #291D07;
 }
 
 ::placeholder {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(41, 29, 7, 0.4);
 }
 
 .order-form-inputs .button.violet-button {
@@ -467,6 +457,4 @@ body {
     top: -920px;
     left: 0;
 }
-
-
 
