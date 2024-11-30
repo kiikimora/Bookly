@@ -111,11 +111,12 @@ body {
     }
 }
 .header {
-    padding: 40px 0;
+    padding: 20px 0;
     width: 100%;
     position: fixed;
+    height: 70px;
     z-index: 1;
-    background: linear-gradient(#5D9B6A, transparent  );
+    background: #6E9D62
 }
 
 .header .container {
@@ -295,7 +296,7 @@ body {
 }
 
 .order-form-inputs input {
-    border: 1px solid white;
+    border: 1px solid #291D07;
     border-radius: 60px;
     margin-bottom: 16px;
     padding: 24px 22px;
@@ -305,11 +306,11 @@ body {
     background: transparent;
     box-sizing: border-box;
     outline: none;
-    color: white;
+    color: #291D07;
 }
 
 ::placeholder {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(41, 29, 7, 0.4);
 }
 
 .order-form-inputs .button.violet-button {
@@ -320,7 +321,7 @@ body {
 .order-block-image {
     height: 501px;
     margin-left: 450px;
-    margin-top: -300px;
+    margin-top: -415px;
 }
 
 .order-image {
@@ -409,9 +410,7 @@ body {
 }
 
 .color-text-container {
-    margin-top: 40px;
-    padding-top: 40px;
     padding-bottom: 40px;
-    background-color: white;
+    background-color: transparent;
+    font-size: 17px;
 }
-
