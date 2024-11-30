@@ -318,11 +318,15 @@ body {
     height: 71px;
 }
 
-
+.order-block-image {
+    height: 501px;
+    margin-left: 450px;
+    margin-top: -415px;
+}
 
 .order-image {
     height: 501px;
-    top: -20px;
+    top: -50px;
     position: relative;
 }
 
@@ -410,5 +414,7 @@ body {
     background-color: transparent;
     font-size: 17px;
 }
+
+
 
 
