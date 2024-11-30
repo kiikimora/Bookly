@@ -318,15 +318,11 @@ body {
     height: 71px;
 }
 
-.order-block-image {
-    height: 501px;
-    margin-left: 450px;
-    margin-top: -375px;
-}
+
 
 .order-image {
     height: 501px;
-    top: -25px;
+    top: -40px;
     position: relative;
 }
 
